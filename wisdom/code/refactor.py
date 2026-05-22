@@ -1,7 +1,7 @@
 """代码重构知识库 — 将 knowledge 翻译为可编程的类型和实例。
 
 用法：
-    from docs.gallery.wisdom.code_refactor import (
+    from docs.gallery.wisdom.code.refactor import (
         RefactorMethod, CodeSmell, RefactorGoal, Correspondence,
         refactoring_techniques, code_smells, correspondences,
     )

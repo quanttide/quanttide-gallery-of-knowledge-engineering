@@ -26,18 +26,18 @@ data → information → knowledge → wisdom
 
 ## 案例列表
 
-### 代码重构（code-refactor）
+### 代码重构（code/refactor）
 
 | 层 | 文件 | 内容 |
 |----|------|------|
 | Data | — | Martin Fowler 重构理论相关资料（外部引用） |
-| Information | `information/code-refactor.md` | 重构主题整理后的 Markdown 文档 |
-| Knowledge | `knowledge/code-refactor.json` | 5 个本体 + 19 个实例的 JSON |
-| Wisdom | `wisdom/code_refactor.py` | 使用 Pydantic 定义的知识库模型 |
+| Information | `information/code/refactor.md` | 重构主题整理后的 Markdown 文档 |
+| Knowledge | `knowledge/code/refactor.json` | 6 个本体 + 24 个实例（含关系）的 JSON |
+| Wisdom | `wisdom/code/refactor.py` | 使用 Pydantic 定义的知识库模型 |
 
 ```
-code-refactor.md  →  code-refactor.json  →  code_refactor.py
-   （信息）              （知识）               （智慧）
+information/code/refactor.md  →  knowledge/code/refactor.json  →  wisdom/code/refactor.py
+       （信息）                         （知识）                          （智慧）
 ```
 
 ## 许可
